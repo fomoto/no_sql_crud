@@ -42,3 +42,10 @@ test:
         read:
           mode: primary
         max_pool_size: 1
+production:
+  sessions:
+    default:
+      uri: 'mongodb://root:root@ds051523.mongolab.com:51523/no_sql_crud'
+      options:
+        skip_version_check: true
+        safe: true

@@ -1,4 +1,4 @@
-ruby '2.0.0'
+ruby '2.1.2'
 source 'https://rubygems.org'
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'pry-rails'
