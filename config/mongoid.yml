@@ -43,7 +43,7 @@ test:
           mode: primary
         max_pool_size: 1
 production:
-  sessions:
+  clients:
     default:
       uri: 'mongodb://root:root@ds051523.mongolab.com:51523/no_sql_crud'
       options:
